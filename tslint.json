@@ -39,7 +39,7 @@
     "member-access": false,
     "no-arg": true,
     "no-console": [
-      true,
+      false,
       "debug",
       "log",
       "time",
@@ -50,7 +50,7 @@
     "no-debugger": true,
     "no-duplicate-super": true,
     "no-empty": false,
-    "no-empty-interface": true,
+    "no-empty-interface": false,
     "no-eval": true,
     "no-misused-new": true,
     "no-non-null-assertion": true,

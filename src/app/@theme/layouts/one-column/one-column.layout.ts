@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'ngx-one-column-layout',
@@ -16,10 +16,6 @@ import { Component } from '@angular/core';
       <nb-layout-column>
         <ng-content select="router-outlet"></ng-content>
       </nb-layout-column>
-
-      <nb-layout-footer fixed>
-        <ngx-footer></ngx-footer>
-      </nb-layout-footer>
     </nb-layout>
   `,
 })
